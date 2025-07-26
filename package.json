@@ -55,6 +55,7 @@
     "node": "20.x"
   },
   "overrides": {
-  "postcss-flexbugs-fixes": "4.2.1"
+  "postcss-flexbugs-fixes": "4.2.1",
+  "postcss-normalize": "10.0.1"
 }
 }
