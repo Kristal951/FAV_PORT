@@ -53,5 +53,8 @@
   },
   "engines": {
     "node": "20.x"
-  }
+  },
+  "overrides": {
+  "postcss-flexbugs-fixes": "4.2.1"
+}
 }
