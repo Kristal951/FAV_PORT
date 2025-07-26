@@ -1,0 +1,102 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+   @media (min-width: 360px) and (max-width: 600px) {
+                display: flex;
+               justify-content: center;
+        }
+
+                 @media (min-width: 768px) and (max-width: 1024px) {
+            display: flex;
+               justify-content: center;
+        }
+
+  .inner-div {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .text-container {
+    // margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+       @media (min-width: 360px) and (max-width: 600px) {
+            width: 400px;
+        }
+
+    .name-introduction {
+      font-size: 32px;
+      font-weight: 600;
+      color: #dbef02; // deep navy
+      letter-spacing: 0.5px;
+    }
+
+  }
+
+ .button_container {
+    // margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+
+    button {
+      padding: 15px 30px;
+      font-size: 20px;
+      font-weight: 700;
+      border-radius: 2rem;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        transform: translateY(-2px);
+        background-color: #dbef02;
+        color: black;
+      }
+    }
+
+    button:nth-of-type(1) {
+      background-color: #dbef02;
+      color: #001f3f;
+
+      &:hover{
+        background:  #001f3f;
+        color: white;
+        border: 1px solid #dbef02;
+      }
+    }
+
+    button:nth-of-type(2) {
+      background-color: transparent;
+      border: 2px solid #dbef02;
+      color: #dbef02;
+
+      &:hover{
+        background:#dbef02;
+        color: #001f3f;
+        border: 1px solid ;
+      }
+    }
+  }
+}
