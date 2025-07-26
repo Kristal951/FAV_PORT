@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Links } from "./"; // Assumes Links = [{ id, label, path }]
 import "./styles/MenuBar.scss";
+import Logo_Trans from '../assets/LOGO_trans.png'
 
 const MenuBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -29,7 +30,9 @@ const MenuBar = () => {
 
   return (
     <nav className="menu-bar">
-      <div className="logo">Favour Graphics</div>
+      <div className="logo">
+        <img src={Logo_Trans} alt="" />
+      </div>
 
       <div
         className={`menu-toggle ${menuOpen ? "open" : ""}`}
