@@ -15,6 +15,7 @@
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
 
     img {
       width: 100%;
@@ -94,6 +95,14 @@
     .button_container button {
       padding: 20px;
       border-radius: 1.2rem;
+    }
+
+    .inner-div{
+      margin-top: 80px;
+    }
+
+    .text-container {
+      text-align: center;
     }
   }
 

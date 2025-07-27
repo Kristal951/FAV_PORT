@@ -5,18 +5,20 @@
   padding: 1rem 2rem;
   background: #001f3f;
   color: #fff;
-  position: sticky;
+  position: fixed;
   top: 0;
+  right: 0;
+  left: 0;
   z-index: 999;
 
   .logo {
     font-weight: bold;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 
     img{
-       height: 50px;
-    width: 50px;
+       height: 40px;
+    width: 40px;
     }
   }
 
