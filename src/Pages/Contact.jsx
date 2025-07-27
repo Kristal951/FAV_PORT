@@ -26,7 +26,7 @@ const Contact = () => {
           <div className="down_side">
             <div className="content_box">
               <IoCall className="icon" />
-              <p>+234 000 000 0000</p>
+              <p>+234 614 113 96</p>
             </div>
             <div className="content_box">
               <FaLocationDot className="icon" />
@@ -34,7 +34,7 @@ const Contact = () => {
             </div>
             <div className="content_box">
               <IoMdMail className="icon" />
-              <p>yourname@example.com</p>
+              <p>creativeminds0810@gmail.com</p>
             </div>
           </div>
         </div>
